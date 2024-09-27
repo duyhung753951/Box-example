@@ -15,7 +15,7 @@ div {
     font-weight: 300;
 }
 
-.box {
+.product-box {
     width: 1100px;
     height: 453px;
     border: 2px solid black;
@@ -36,7 +36,7 @@ img {
     background-size: 100%;
 }
 
-.content {
+.product-content {
     float: left;
     padding-left: 30px;
     width: 100%;
@@ -81,7 +81,7 @@ hr {
     border: 1px solid #50222b;
 }
 
-.description {
+.product-description {
     text-wrap: wrap;
 }
 
@@ -92,13 +92,12 @@ hr {
         height: 50%;
         background-repeat: no-repeat;
     }
-    .box {
+    .product-box {
         width: 90%;
         height: 90%;
     }
-    .content {
+    .product-description {
         margin-left: -15px;
-        clear: left;
     }
 }
 @media (max-height: 741px){
@@ -109,7 +108,7 @@ hr {
 
 /* lớn hơn 769px sẽ chạy  */
 @media only screen and (min-width: 769px) {
-    .content {
+    .product-content {
         width: 50%;
     }
 }
